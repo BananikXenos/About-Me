@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="snowing.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Personal Website</title>
+  </head>
+  <body>
+    <div class="snow"></div>
+    <div class="hero">
+      <nav>
+        <img src="assets/images/animepfp.png" alt="My profile picture" class="logo">
+        <ul>
+          <li><a href="https://www.youtube.com/channel/UC22P5A549VnmEdKg8XwjCHw" target="_blank">Youtube</a></li>
+          <li><a href="https://www.instagram.com/kri_kekes/" target="_blank">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@scgxenos" target="_blank">Tiktok</a></li>
+          <li><a href="#" onclick="copyToClipboard('Synse#3191')">Discord</a></li>
+          <li><a href="#" onclick="copyToClipboard('gamerix2006@gmail.com')">Email</a></li>
+        </ul>
+        <a href="https://github.com/BananikXenos" target="_blank" class="btn">GitHub</a>
+      </nav>
+    </div>
+
+    <div class="box">
+      <img src="assets/images/profile_picture.jpg" alt="Picture of me" class="box-img">
+      <h1>Synse</h1>
+      <h5>Java Programmer & Gamer</h5>
+      <p>Hello! My name is Kristián and I'm 15 years old. I enjoy programming in Java mainly, but i code in C#, Python. I am currently learning to code in HTML. I play video games in my free time. Feel free to dm me!</p>
+    </div>
+
+    <audio controls loop id="backgroundMusic" class="musicPlayer">
+      <source src="assets/audio/Kaisaku - Wilting Affection.mp3" type="audio/mp3">
+    </audio>
+
+    <script>
+      var audio = document.getElementById("backgroundMusic");
+      audio.currentTime = 0
+      audio.volume = 0.1;
+      audio.play();
+    </script>
+  </body>
+</html>
