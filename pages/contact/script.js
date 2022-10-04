@@ -1,6 +1,6 @@
 animateTitle();
 
-function animateTitle(Title = "Master Synse", delay = 300) {
+function animateTitle(Title = "About Me", delay = 300) {
     let counter = 0;
     let direction = true;
     aniTitle = setInterval(function () {

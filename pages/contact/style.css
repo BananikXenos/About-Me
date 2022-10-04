@@ -14,7 +14,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: url(assets/images/bg.jpg) no-repeat;
+    background: url(../../assets/images/bg.jpg) no-repeat;
     background-size: cover;
 }
 
@@ -58,7 +58,6 @@ body {
     text-transform: uppercase;
     margin-top: 1%;
     margin-right: 1%;
-    white-space: nowrap;
 }
 
 .nav-buttons a:hover {
@@ -124,6 +123,12 @@ body {
 .short-description {
     color: rgba(245, 245, 245, 0.9);
     font-size: 1.2vw;
+    font-weight: lighter;
+}
+
+.long-description {
+    color: rgba(235, 235, 235, 0.7);
+    font-size: 0.9vw;
     font-weight: lighter;
 }
 
